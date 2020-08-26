@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript Todo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <link rel = 'stylesheet' type = 'text/css' href = './index.css' />
+</head>
+<body>
+  <div class="page-container">
+	  <section class = 'sidebar'>
+		<div class="">
+			<div class="helpText">
+				<h2>JavaScript Interactive Todo List</h2>
+				<ul>
+					<li>DOM Selectors</li>
+					<li>Functions</li>
+					<li>Components</li>
+					<li>Events</li>
+				</ul>
+			</div>
+		</div>
+	  </section>
+
+	  <section class = 'todo-list'>
+		<div class="card">
+			<div class="card-header title">
+			  <h1>JavaScript Todo List</h1>
+			</div>
+			<div class="card-body">
+			  <input id='todoInput' type="text" maxlength="70" placeholder="enter todo item" >
+			  <a href="#" class="btn"><button id='submit'>ADD TODO ITEM</button></a>
+			</div>
+			<div class="">
+				<div class="listItems">
+					<ul id="todo-ul">
+					</ul>
+				</div>
+			</div>
+		  </div>
+		  
+	  </section>
+
+	
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type = 'text/javascript' src= 'index.js'></script>
+</body>
+</html>

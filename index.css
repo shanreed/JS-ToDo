@@ -1,0 +1,132 @@
+body {
+	background: #aab1b6;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.page-container {
+	margin: 10rem auto;
+	max-width: 90%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sidebar {
+	background: rgb(190, 64, 64);
+	flex-basis: 30%;
+	padding:5rem;
+}
+
+.todo-list {
+	flex-basis: 60%;
+}
+
+.title {
+	background: rgb(190, 64, 64);
+	font-weight: bold;
+}
+
+
+#submit {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: rgb(190, 64, 64);
+	background-color: #aab1b6;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+	border: 2px solid rgb(218, 95, 95);
+}
+
+#submit:hover{
+	background-color: rgb(218, 95, 95);
+	color: #000000;
+	border: 2px solid black;
+}
+
+#todo-ul {
+	margin: 0 auto;
+	width: 65%;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #aab1b6;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+.todo-li {
+	list-style: none;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid rgb(218, 95, 95);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #000000;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+	color: white;
+
+}
+
+li:hover {
+	background: rgb(241, 174, 174);
+	color: white
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: white;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border:2px solid rgb(218, 95, 95);
+	background: #b9babb;
+}
+
+.delete-button {
+	border-radius: 5px;
+	color: red;
+	background: white;
+}
+
+.completed {
+	background: red !important;
+	color: black;
+}
+
+.delete {
+	display: none;
+}
